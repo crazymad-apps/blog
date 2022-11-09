@@ -1,0 +1,52 @@
+.article_page {
+  .article_header {
+    p {
+      margin: 0;
+    }
+    p:nth-child(1) {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    p:nth-child(2) {
+      color: #aaa;
+
+      font-size: 18px;
+    }
+    p:nth-child(3) {
+      span {
+        display: inline-block;
+
+        margin-right: 4px;
+
+        cursor: pointer;
+
+        color: #666;
+      }
+      span:hover {
+        color: #1890ff;
+      }
+    }
+  }
+  .article_content {
+    margin-top: 32px;
+
+    pre {
+      overflow: auto;
+
+      padding: 18px;
+
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      code {
+        font-family: Lucida Console, consolai, Monaco;
+        font-size: 14px;
+        line-height: 1.5em;
+        // font-family: Monaco;
+      }
+    }
+
+    a {
+      color: #1890ff;
+    }
+  }
+}

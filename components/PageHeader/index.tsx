@@ -5,7 +5,7 @@ export default function PageHeader() {
   return (
     <header className={styles.page_header}>
       <span>
-        <Link href="/">crazymad</Link>
+        <Link href="/">INDEX</Link>
       </span>
     </header>
   );
